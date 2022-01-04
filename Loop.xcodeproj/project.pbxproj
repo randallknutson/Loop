@@ -2471,6 +2471,7 @@
 				"$(BUILT_PRODUCTS_DIR)/MockKit.framework/MockKit",
 				"$(BUILT_PRODUCTS_DIR)/MockKitUI.framework/MockKitUI",
 				"$(BUILT_PRODUCTS_DIR)/MKRingProgressView.framework/MKRingProgressView",
+				"$(BUILT_PRODUCTS_DIR)/OmniBLE.framework/OmniBLE",
 			);
 			name = "Copy Frameworks with Carthage";
 			outputPaths = (
@@ -2489,6 +2490,7 @@
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/MockKit.framework",
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/MockKitUI.framework",
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/MKRingProgressView.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/OmniBLE.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -3547,9 +3549,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "$(APPICON_NAME)";
 				CODE_SIGN_ENTITLEMENTS = Loop/Loop.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = W8T2N36AYW;
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = Loop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				"OTHER_SWIFT_FLAGS[arch=*]" = "-DDEBUG";
 				"OTHER_SWIFT_FLAGS[sdk=iphonesimulator*]" = "-D IOS_SIMULATOR";
@@ -3566,9 +3569,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "$(APPICON_NAME)";
 				CODE_SIGN_ENTITLEMENTS = Loop/Loop.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = W8T2N36AYW;
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = Loop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(MAIN_APP_BUNDLE_IDENTIFIER)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -3584,7 +3588,7 @@
 				CODE_SIGN_ENTITLEMENTS = "WatchApp Extension/WatchApp Extension.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = W8T2N36AYW;
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage/Build/watchOS";
 				INFOPLIST_FILE = "WatchApp Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -3607,7 +3611,7 @@
 				CODE_SIGN_ENTITLEMENTS = "WatchApp Extension/WatchApp Extension.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = W8T2N36AYW;
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage/Build/watchOS";
 				INFOPLIST_FILE = "WatchApp Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -3628,7 +3632,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "$(APPICON_NAME)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = W8T2N36AYW;
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage/Build/watchOS";
 				IBSC_MODULE = WatchApp_Extension;
 				INFOPLIST_FILE = WatchApp/Info.plist;
@@ -3649,7 +3653,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "$(APPICON_NAME)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = W8T2N36AYW;
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage/Build/watchOS";
 				IBSC_MODULE = WatchApp_Extension;
 				INFOPLIST_FILE = WatchApp/Info.plist;
@@ -3747,7 +3751,7 @@
 				CODE_SIGN_ENTITLEMENTS = Learn/Learn.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = W8T2N36AYW;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = Learn/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -3775,7 +3779,7 @@
 				CODE_SIGN_ENTITLEMENTS = Learn/Learn.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = W8T2N36AYW;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = Learn/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -3862,7 +3866,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = W8T2N36AYW;
 				INFOPLIST_FILE = DoseMathTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.loudnate.DoseMathTests;
@@ -3878,7 +3882,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = W8T2N36AYW;
 				INFOPLIST_FILE = DoseMathTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.loudnate.DoseMathTests;
@@ -3933,7 +3937,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = W8T2N36AYW;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Loop Status Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -3955,7 +3959,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = W8T2N36AYW;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Loop Status Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
